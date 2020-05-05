@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6em;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global style */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dark {
+    padding: 15px;
+    background-color: #423F3E;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.button_1 {
+    height: 38px;
+    background: #fff;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Global header */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #ff9900;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 60px;
+    height: 60px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 10px 50px 30px 0;
+}
+
+header #logo-brand {
+    float: left;
+}
+
+header #logo-brand h1 {
+    margin-top: 12px;
+}
+
+header #navbar {
+    float: right;
+    margin-top: 3px;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#headlines {
+    min-height: 450px;
+    margin: auto;
+    background-color: black;
+}
+
+#headlines h1 {
+  font-family: Palatino;
+  color:  #ffaa00;
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+#headlines p {
+  font-family: Palatino;
+  color:  #fff;
+  text-align: center;
+  line-height: 0.1em;
+  font-size: 25px;
+}
+
+#headlines img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 70%;
+}
+
+/*showcase
+
+#showcase {
+    min-height: 450px;
+    background-image: url(../images/chickenshow3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+*/
+/* newsletter*/
+
+#newsletter {
+    padding: 5px;
+    color: #fff;
+    background: #ff9900;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*about section */
+#about {
+    margin-top: 20px;
+    padding: 5px;
+
+}
+
+#about img {
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/* Box Area */
+.container-1 {
+    display: flex;
+    /* align-items: flex-start;
+    default: strech
+    */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: row;
+}
+
+.container-1 div {
+    border: 2px #ccc solid;
+    padding: 10px;
+}
+
+.box-1 {
+    flex: 1;
+    order: 2;
+}
+
+.box-2 {
+    flex: 1;
+    order: 1;
+}
+
+.box-3 {
+    flex: 1;
+    order: 3;
+}
+
+#menu-box .box-1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+#menu-box .box-2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+#menu-box .box-3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+
+
+
+#big-box {
+    margin-top: 20px;
+}
+
+#big-box .box {
+    float: left;
+    width: 30%;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#big-box .box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+/*About Page Style */
+#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#main-col {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+
+footer {
+    padding: 1px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #ff9900;
+    text-align: center;
+}
